@@ -1,0 +1,26 @@
+{
+  "name": "automation-korail",
+  "version": "1.0.0",
+  "description": "ticketing automation project",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wns312/automation-korail.git"
+  },
+  "author": "JYK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wns312/automation-korail/issues"
+  },
+  "homepage": "https://github.com/wns312/automation-korail#readme",
+  "dependencies": {
+    "googleapis": "^110.0.0",
+    "puppeteer": "^19.4.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^7.0.4"
+  }
+}

@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  crawler:
+    # platform: linux/amd64
+    build:
+      context: .
+    environment:
+      - NODE_ENV=prod
+    env_file:
+      - ./env/.env
+    volumes:
+      - ./src:/app/src
+      - ./dist:/app/dist
